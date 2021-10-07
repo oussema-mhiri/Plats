@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: #2F375B;
+}
+nav h1{
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+ul{
+    display: flex;
+    margin-left: 60%;
+}
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: goldenrod;
+}
+#projects{
+    background-color: #99C5D2;
+}
+#nav-projects{
+    background-color: #607993;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.project{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    background-color: #2F375B;
+    border-radius: 15px;
+    box-shadow: black 3px 6px 10px;
+}
+#projects h1{
+    font-family:  Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-top: 10px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bolder;
+    
+}
+#projects h1 {
+    text-shadow: black 2px 1px;
+}
+.project p, .project h6 , .project h3 , .project a{
+    padding: 10px;
+}
+.project p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.project h3{
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 26px;
+}
+.project a{
+    text-decoration: none;
+    color: white;
+    border: solid white 0.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+.project a:hover{
+    color: goldenrod;
+    border: solid goldenrod 0.5px;
+    border-radius: 6px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.technologies{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.technologies h6{
+    color: grey;
+}
+footer{
+    background-color: #353535;
+    display:flex;
+    justify-content: space-between;
+}
+footer h1{
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Prompt', sans-serif; ;
+}
+footer h3{
+    color: #B29D00;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Prompt'
+}
+footer .informations{
+    margin-bottom: 10px;
+}
+footer .social{
+    margin-top: 70px;
+}
+.social a{
+    text-decoration: none;
+}
+.social a img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.copyrights h3{
+    margin-right: 15px;
+    margin-top: 70px;
+   font-family: 'prompt' ;
+}
